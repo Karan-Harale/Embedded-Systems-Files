@@ -1,0 +1,80 @@
+C51 COMPILER V7.50   PROJ1                                                                 08/26/2018 21:29:25 PAGE 1   
+
+
+C51 COMPILER V7.50, COMPILATION OF MODULE PROJ1
+OBJECT MODULE PLACED IN proj1.OBJ
+COMPILER INVOKED BY: D:\Keil_Demo Version\C51\BIN\C51.EXE proj1.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <reg51.h>
+   2          void msdelay(unsigned int);
+   3          void main (void)
+   4          {
+   5   1      while(1)
+   6   1      {
+   7   2      P2=00;
+   8   2      P3=00;
+   9   2      P2=0x249;
+  10   2      P3=0x249;
+  11   2      msdelay(100);
+  12   2      P2=0x24c;
+  13   2      msdelay(100);
+  14   2      P2=0x24a;
+  15   2      msdelay(100);
+  16   2      P2=0x261;
+  17   2      msdelay(100);
+  18   2      P2=0x251;
+  19   2      msdelay(100);
+  20   2      P2=0x309;
+  21   2      msdelay(100);
+  22   2      P2=0x289;
+  23   2      msdelay(100);
+  24   2      P2=0x849;
+  25   2      msdelay(100);
+  26   2      P2=0x449;
+  27   2      msdelay(100);
+  28   2      P3=0x309;
+  29   2      msdelay(100);
+  30   2      P3=0x289;
+  31   2      msdelay(100);
+  32   2      P3=0x849;
+  33   2      msdelay(100);
+  34   2      P3=0x449;
+  35   2      msdelay(100);
+  36   2      P3=0x249;
+  37   2      msdelay(100);
+  38   2      P3=0x24c;
+  39   2      msdelay(100);
+  40   2      P3=0x24a;
+  41   2      msdelay(100);
+  42   2      P3=0x261;
+  43   2      msdelay(100);
+  44   2      P3=0x251;
+  45   2      msdelay(100);
+  46   2      }
+  47   1      }
+  48          
+  49          
+  50          void msdelay(unsigned int a)
+  51          {
+  52   1      unsigned int x,y;
+  53   1      for(x=0;x<a;x++)
+  54   1      for(y=-0;y<1275;y++);
+  55   1      }//end of msdelay
+C51 COMPILER V7.50   PROJ1                                                                 08/26/2018 21:29:25 PAGE 2   
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    152    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

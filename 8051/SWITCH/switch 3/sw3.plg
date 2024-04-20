@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Ganesh\Downloads\Desktop\Embedded systm\switch 3\sw3.uv2
+Project File Date:  08/15/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+Target has no object modules
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(4): error C146: 'P': invalid base address
+SW3.C(6): error C231: 'led': redefinition
+SW3.C(7): error C231: 'led': redefinition
+SW3.C(10): error C202: 'sw': undefined identifier
+SW3.C(14): error C202: 'sw': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(6): error C231: 'led': redefinition
+SW3.C(7): error C231: 'led': redefinition
+SW3.C(10): error C202: 'sw': undefined identifier
+SW3.C(14): error C202: 'sw': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(6): error C231: 'led': redefinition
+SW3.C(7): error C231: 'led': redefinition
+SW3.C(10): error C202: 'sw': undefined identifier
+SW3.C(14): error C202: 'sw': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(6): error C231: 'led': redefinition
+SW3.C(7): error C231: 'led': redefinition
+SW3.C(10): error C202: 'sw': undefined identifier
+SW3.C(14): error C202: 'sw': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(6): error C231: 'Led': redefinition
+SW3.C(7): error C231: 'Led': redefinition
+SW3.C(10): error C202: 'sw': undefined identifier
+SW3.C(11): error C202: 'led': undefined identifier
+SW3.C(14): error C202: 'sw': undefined identifier
+SW3.C(15): error C202: 'led': undefined identifier
+SW3.C(17): error C202: 'led': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(7): error C143: invalid absolute bit address
+SW3.C(7): error C141: syntax error near 'P2', expected ';'
+SW3.C(7): error C129: missing ';' before '^'
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(10): error C202: 'sw': undefined identifier
+SW3.C(11): error C202: 'led': undefined identifier
+SW3.C(14): error C202: 'sw': undefined identifier
+SW3.C(15): error C202: 'led': undefined identifier
+SW3.C(17): error C202: 'led': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(10): error C202: 'Sw': undefined identifier
+SW3.C(11): error C202: 'Led': undefined identifier
+SW3.C(14): error C202: 'sw': undefined identifier
+SW3.C(15): error C202: 'led': undefined identifier
+SW3.C(17): error C202: 'led': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(19): error C202: 'led1': undefined identifier
+SW3.C(21): error C202: 'led1': undefined identifier
+SW3.C(23): error C202: 'led2': undefined identifier
+SW3.C(25): error C202: 'led2': undefined identifier
+SW3.C(27): error C202: 'led3': undefined identifier
+SW3.C(29): error C202: 'led3': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(19): error C202: 'led1': undefined identifier
+SW3.C(21): error C202: 'led1': undefined identifier
+SW3.C(29): error C202: 'led3': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(29): error C202: 'led3': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+SW3.C(29): error C202: 'ed3': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling sw3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=54
+"sw3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+creating hex file from "sw3"...
+"sw3" - 0 Error(s), 0 Warning(s).

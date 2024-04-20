@@ -1,0 +1,45 @@
+C51 COMPILER V9.59.0.0   PROJ1                                                             09/25/2018 10:02:27 PAGE 1   
+
+
+C51 COMPILER V9.59.0.0, COMPILATION OF MODULE PROJ1
+OBJECT MODULE PLACED IN .\Objects\proj1.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE proj1.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\pro
+                    -j1.lst) TABS(2) OBJECT(.\Objects\proj1.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void msdelay(unsigned int);
+   3          void main(void)
+   4          {
+   5   1        P2=00;//as o/p
+   6   1        while(1)
+   7   1        {
+   8   2          P2=0xff;//all ked's ON
+   9   2          msdelay(100);
+  10   2          P2=0x00;
+  11   2          msdelay(100);
+  12   2        }
+  13   1      }
+  14          
+  15          
+  16          void msdelay(unsigned int a)
+  17          {
+  18   1        unsigned int x,y;
+  19   1        for (x=0;x<a;x++)
+  20   1        for(y=0;y<1275;y++);
+  21   1      }//end of msdelay
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     56    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

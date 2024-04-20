@@ -1,0 +1,93 @@
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                    01/14/2024  14:52:48  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.4.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE 100.obj TO 100 RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  100.obj (100)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  100 (100)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     0020H     UNIT         ?PR?_MSDELAY?100
+            CODE    0820H     0019H     UNIT         ?PR?MAIN?100
+            CODE    0839H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   100 (100)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?100
+
+?PR?MAIN?100
+  +--> ?PR?_MSDELAY?100
+
+
+
+SYMBOL TABLE OF MODULE:  100 (100)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        100
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00A0H         PUBLIC        P2
+  C:0820H         PUBLIC        main
+  C:0800H         PUBLIC        _msdelay
+  -------         PROC          MAIN
+  C:0820H         LINE#         3
+  C:0820H         LINE#         4
+BL51 BANKED LINKER/LOCATER V6.22.4.0                                                  01/14/2024  14:52:48  PAGE 2
+
+
+  C:0820H         LINE#         5
+  C:0823H         LINE#         6
+  C:0823H         LINE#         7
+  C:0823H         LINE#         8
+  C:0826H         LINE#         9
+  C:082DH         LINE#         10
+  C:0830H         LINE#         11
+  C:0837H         LINE#         12
+  -------         ENDPROC       MAIN
+  -------         PROC          _MSDELAY
+  D:0006H         SYMBOL        a
+  -------         DO            
+  D:0004H         SYMBOL        x
+  D:0002H         SYMBOL        y
+  -------         ENDDO         
+  C:0800H         LINE#         16
+  C:0800H         LINE#         17
+  C:0800H         LINE#         19
+  C:080AH         LINE#         20
+  C:081FH         LINE#         21
+  -------         ENDPROC       _MSDELAY
+  -------         ENDMOD        100
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0039H BYTE ( 2%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=72
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,45 @@
+C51 COMPILER V7.50   PROJ_1                                                                08/19/2018 17:58:15 PAGE 1   
+
+
+C51 COMPILER V7.50, COMPILATION OF MODULE PROJ_1
+OBJECT MODULE PLACED IN proj 1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE proj 1.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          sbit sw=P2^0;
+   3          sbit buzz       =P2^1;
+   4          sbit vib=P2^2;
+   5          void main (void)
+   6          {
+   7   1      sw=1;//act as i/p
+   8   1      buzz=0;//o/p
+   9   1      vib=0;//o/p
+  10   1      while(1)
+  11   1      {
+  12   2      if(sw==0)
+  13   2      {
+  14   3      buzz=1;
+  15   3      vib=1;
+  16   3      }
+  17   2      {
+  18   3      buzz=0;
+  19   3      vib=0;
+  20   3      }
+  21   2      }
+  22   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     19    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

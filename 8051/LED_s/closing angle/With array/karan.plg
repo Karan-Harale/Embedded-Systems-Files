@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Ganesh\Downloads\Desktop\Embedded systm\closing angle\With array\karan.uv2
+Project File Date:  08/15/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling karan.c...
+KARAN.C(3): error C158: '_msdelay': function contains unnamed parameter
+KARAN.C(4): error C132: 'main': not in formal parameter list
+KARAN.C(4): error C141: syntax error near '{'
+KARAN.C(5): error C244: 'a': can't initialize, bad type or class
+KARAN.C(5): error C132: 'a': not in formal parameter list
+KARAN.C(5): error C136: 'x': 'void' on variable
+KARAN.C(5): error C132: 'x': not in formal parameter list
+KARAN.C(6): error C244: 'p2': can't initialize, bad type or class
+KARAN.C(6): error C132: 'p2': not in formal parameter list
+KARAN.C(7): error C141: syntax error near 'while'
+KARAN.C(7): error C141: syntax error near '1'
+KARAN.C(9): error C141: syntax error near '=', expected ')'
+KARAN.C(9): error C129: missing ';' before '<'
+Target not created
+Build target 'Target 1'
+compiling karan.c...
+KARAN.C(3): error C158: '_msdelay': function contains unnamed parameter
+KARAN.C(4): error C132: 'main': not in formal parameter list
+KARAN.C(4): error C141: syntax error near '{'
+KARAN.C(5): error C244: 'a': can't initialize, bad type or class
+KARAN.C(5): error C132: 'a': not in formal parameter list
+KARAN.C(5): error C136: 'x': 'void' on variable
+KARAN.C(5): error C132: 'x': not in formal parameter list
+KARAN.C(6): error C244: 'p2': can't initialize, bad type or class
+KARAN.C(6): error C132: 'p2': not in formal parameter list
+KARAN.C(7): error C141: syntax error near 'while'
+KARAN.C(7): error C141: syntax error near '1'
+KARAN.C(9): error C141: syntax error near '=', expected ')'
+KARAN.C(9): error C129: missing ';' before '<'
+Target not created
+Build target 'Target 1'
+compiling karan.c...
+KARAN.C(4): error C141: syntax error near '{'
+KARAN.C(7): error C141: syntax error near 'while'
+KARAN.C(7): error C141: syntax error near '1'
+KARAN.C(9): error C141: syntax error near '=', expected ')'
+KARAN.C(9): error C129: missing ';' before '<'
+Target not created
+Build target 'Target 1'
+compiling karan.c...
+KARAN.C(6): error C202: 'p2': undefined identifier
+KARAN.C(11): error C202: 'p2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling karan.c...
+KARAN.C(3): error C158: '_msdelay': function contains unnamed parameter
+KARAN.C(4): error C132: 'main': not in formal parameter list
+KARAN.C(4): error C141: syntax error near '{'
+KARAN.C(5): error C244: 'a': can't initialize, bad type or class
+KARAN.C(5): error C132: 'a': not in formal parameter list
+KARAN.C(5): error C136: 'x': 'void' on variable
+KARAN.C(5): error C132: 'x': not in formal parameter list
+KARAN.C(6): error C244: 'p2': can't initialize, bad type or class
+KARAN.C(6): error C132: 'p2': not in formal parameter list
+KARAN.C(7): error C141: syntax error near 'while'
+KARAN.C(7): error C141: syntax error near '1'
+KARAN.C(9): error C141: syntax error near '=', expected ')'
+KARAN.C(9): error C129: missing ';' before '<'
+Target not created
+Build target 'Target 1'
+compiling karan.c...
+KARAN.C(6): error C202: 'p2': undefined identifier
+KARAN.C(11): error C202: 'p2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling karan.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _MSDELAY
+    MODULE:  karan.obj (KARAN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _MSDELAY
+    MODULE:  karan.obj (KARAN)
+    ADDRESS: 091CH
+Program Size: data=14.0 xdata=0 code=316
+"karan" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling karan.c...
+linking...
+Program Size: data=14.0 xdata=0 code=348
+"karan" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"karan" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+creating hex file from "karan"...
+"karan" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling karan.c...
+linking...
+Program Size: data=14.0 xdata=0 code=348
+creating hex file from "karan"...
+"karan" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling karan.c...
+linking...
+Program Size: data=14.0 xdata=0 code=348
+creating hex file from "karan"...
+"karan" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling karan.c...
+linking...
+Program Size: data=14.0 xdata=0 code=348
+creating hex file from "karan"...
+"karan" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>

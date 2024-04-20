@@ -1,0 +1,101 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    09/21/2018  19:55:54  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE proj3.obj TO proj3 RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  proj3.obj (PROJ3)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  proj3 (PROJ3)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     0024H     UNIT         ?PR?_MSDELAY?PROJ3
+            CODE    0824H     001DH     UNIT         ?PR?MAIN?PROJ3
+            CODE    0841H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   proj3 (PROJ3)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?PROJ3
+
+?PR?MAIN?PROJ3
+  +--> ?PR?_MSDELAY?PROJ3
+
+
+
+SYMBOL TABLE OF MODULE:  proj3 (PROJ3)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        PROJ3
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00A0H         PUBLIC        P2
+  C:0824H         PUBLIC        main
+  C:0804H         PUBLIC        _msdelay
+  -------         PROC          MAIN
+  C:0824H         LINE#         3
+  C:0824H         LINE#         4
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  09/21/2018  19:55:54  PAGE 2
+
+
+  C:0824H         LINE#         5
+  C:0827H         LINE#         6
+  C:0827H         LINE#         7
+  C:0827H         LINE#         8
+  C:082AH         LINE#         9
+  C:082DH         LINE#         10
+  C:0830H         LINE#         11
+  C:0833H         LINE#         12
+  C:0836H         LINE#         13
+  C:0839H         LINE#         14
+  C:083CH         LINE#         15
+  C:083FH         LINE#         16
+  -------         ENDPROC       MAIN
+  C:0800H         SYMBOL        L?0014
+  -------         PROC          L?0013
+  -------         ENDPROC       L?0013
+  C:0800H         SYMBOL        L?0014
+  -------         PROC          _MSDELAY
+  D:0006H         SYMBOL        a
+  -------         DO            
+  D:0004H         SYMBOL        x
+  D:0002H         SYMBOL        y
+  -------         ENDDO         
+  C:0804H         LINE#         20
+  C:0804H         LINE#         21
+  C:0804H         LINE#         23
+  C:080EH         LINE#         24
+  C:0823H         LINE#         25
+  -------         ENDPROC       _MSDELAY
+  -------         ENDMOD        PROJ3
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0041H BYTE ( 3%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=80
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

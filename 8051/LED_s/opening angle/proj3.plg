@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Ganesh\Downloads\Desktop\Embedded systm\opening angle\proj3.uv2
+Project File Date:  08/12/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling proj3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=89
+"proj3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling proj3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=89
+creating hex file from "proj3"...
+"proj3" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>

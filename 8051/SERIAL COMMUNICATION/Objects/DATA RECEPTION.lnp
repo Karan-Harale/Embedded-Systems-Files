@@ -1,0 +1,3 @@
+".\Objects\DATA RECEPTION.obj" 
+TO ".\Objects\DATA RECEPTION" 
+PRINT(".\Listings\DATA RECEPTION.m51")

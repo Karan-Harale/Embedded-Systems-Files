@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Ganesh\Downloads\Desktop\Embedded systm\lsb to msb\proj 4.uv2
+Project File Date:  08/12/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling proj 4.c...
+linking...
+Program Size: data=9.0 xdata=0 code=129
+"proj 4" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+creating hex file from "proj 4"...
+"proj 4" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>

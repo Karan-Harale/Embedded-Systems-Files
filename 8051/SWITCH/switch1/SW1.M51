@@ -1,0 +1,78 @@
+BL51 BANKED LINKER/LOCATER V5.12                                                        08/17/2018  19:58:48  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.12, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE SW1.obj TO SW1 RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  SW1.obj (SW1)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  SW1 (SW1)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     000FH     UNIT         ?PR?MAIN?SW1
+            CODE    080FH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   SW1 (SW1)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?SW1
+
+
+
+SYMBOL TABLE OF MODULE:  SW1 (SW1)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        SW1
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00A0H         PUBLIC        P2
+  C:0800H         PUBLIC        main
+  B:00A0H.1       PUBLIC        led
+  B:00A0H.0       PUBLIC        sw
+  -------         PROC          MAIN
+  C:0800H         LINE#         4
+  C:0800H         LINE#         5
+  C:0800H         LINE#         6
+  C:0802H         LINE#         7
+  C:0804H         LINE#         8
+BL51 BANKED LINKER/LOCATER V5.12                                                      08/17/2018  19:58:48  PAGE 2
+
+
+  C:0804H         LINE#         9
+  C:0804H         LINE#         10
+  C:0807H         LINE#         11
+  C:080BH         LINE#         13
+  C:080DH         LINE#         14
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        SW1
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 000FH BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=30
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

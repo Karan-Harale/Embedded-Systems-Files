@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Ganesh\Downloads\Desktop\Embedded systm\New folder\100.uv2
+Project File Date:  08/12/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling 100.c...
+linking...
+Program Size: data=9.0 xdata=0 code=69
+"100" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"100" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+creating hex file from "100"...
+"100" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>

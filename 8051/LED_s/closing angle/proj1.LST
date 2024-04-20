@@ -1,0 +1,45 @@
+C51 COMPILER V7.50   PROJ1                                                                 08/12/2018 15:20:21 PAGE 1   
+
+
+C51 COMPILER V7.50, COMPILATION OF MODULE PROJ1
+OBJECT MODULE PLACED IN proj1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE proj1.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void msdelay(unsigned int a);
+   3          void main (void)
+   4          {
+   5   1       P2=00; //ACT AS O/P
+   6   1       P2=0X81;//TWO LEDS ON
+   7   1       msdelay(100);
+   8   1       P2=0x42;//nxt leds on
+   9   1       msdelay(90);
+  10   1       P2=0x24;//nxt leds on
+  11   1       msdelay(80);
+  12   1       P2=0x18;//nxt leds on
+  13   1       msdelay(70);
+  14   1       }//end of main
+  15          
+  16          
+  17           void msdelay(unsigned int a)
+  18           {
+  19   1       unsigned int x,y;
+  20   1       for(x=0;x<a;x++)
+  21   1       for(y=0;y<1275;y++);
+  22   1       }//end of msdelay
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     74    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

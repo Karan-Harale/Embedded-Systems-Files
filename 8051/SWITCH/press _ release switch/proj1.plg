@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Ganesh\Downloads\Desktop\Embedded systm\SWITCH\press & release switch\proj1.uv2
+Project File Date:  08/18/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling proj1.c...
+PROJ1.C(2): error C202: 'p2': undefined identifier
+PROJ1.C(3): error C202: 'p2': undefined identifier
+PROJ1.C(6): error C202: 'sw': undefined identifier
+PROJ1.C(7): error C202: 'led': undefined identifier
+PROJ1.C(10): error C202: 'sw': undefined identifier
+PROJ1.C(11): error C202: 'sw': undefined identifier
+PROJ1.C(12): error C202: 'led': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling proj1.c...
+linking...
+Program Size: data=9.0 xdata=0 code=29
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling proj1.c...
+PROJ1.C(6): error C202: 'sw': undefined identifier
+PROJ1.C(10): error C202: 'sw': undefined identifier
+PROJ1.C(11): error C202: 'sw': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling proj1.c...
+PROJ1.C(6): error C202: 'sw': undefined identifier
+PROJ1.C(10): error C202: 'sw': undefined identifier
+PROJ1.C(11): error C202: 'sw': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling proj1.c...
+PROJ1.C(6): error C202: 'sw': undefined identifier
+PROJ1.C(10): error C202: 'sw': undefined identifier
+PROJ1.C(11): error C202: 'sw': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling proj1.c...
+linking...
+Program Size: data=9.0 xdata=0 code=29
+creating hex file from "proj1"...
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling proj1.c...
+linking...
+Program Size: data=9.0 xdata=0 code=29
+creating hex file from "proj1"...
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling proj1.c...
+linking...
+Program Size: data=9.0 xdata=0 code=29
+creating hex file from "proj1"...
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling proj1.c...
+linking...
+Program Size: data=9.0 xdata=0 code=29
+creating hex file from "proj1"...
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling proj1.c...
+linking...
+Program Size: data=9.0 xdata=0 code=29
+creating hex file from "proj1"...
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+"proj1" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
